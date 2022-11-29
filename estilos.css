@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(NokioBold.ttf);
+}
+
+body {
+    font-family: myFirstFont;
+}
+
+.custom-shape-divider-top-1669668958 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1669668958 svg {
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 155px;
+}
+
+.custom-shape-divider-top-1669668958 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.hero {
+    background-image: linear-gradient(120deg, #C4CBF2 0%, #D0EFF2);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+header {
+    background-color: #FFFFFF;
+    width: 100%px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header nav {
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+header nav a {
+    color: #9daaf1;
+    padding: 5px 15px 5px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #9daaf1;
+}
+
+header nav a:hover {
+    color: #FFFFFF;
+    background-color: #9daaf1;
+}
+
+
+.textos-hero {
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 240px;
+    margin-bottom: 20px;
+}
+
+.textos-hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.textos-hero p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.textos-hero a {
+    width: 112px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 15px;
+    background: #9daaf1;
+    border-radius: 8px;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    border: 1px solid #9daaf1;
+}
+
+
+.galeria {
+    background: #fff;
+}
+
+.galeria-cont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.galeria-cont>img {
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0px 0px 3px 0px #9daaf1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.img:hover {
+    box-shadow: 0 0 6px 0 #7c8cea;
+    transform: scale(1.03);
+    background-color: #C4CBF2;
+    cursor: pointer;
+}
+
+.galeria-titulo {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0 30px 0;
+    color: #9daaf1;
+}
+
+.subtitule {
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #C4CBF2;
+    padding: 20px 0px;
+}
+
+.content-cards {
+    background-color: #C4CBF2;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:0px 0px 100px 0px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 200px;
+    border: 1px solid white;
+}
+
+.card i {
+    
+    color: #6f82ed;
+    font-size: 60px;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.cta {
+    text-decoration: none;
+    background-color: #C4CBF2;
+    border-radius: 8px;
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    text-align: justify;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D0EFF2;
+    padding:50px 0px;
+}
+
+.footer i {
+    color: #6f82ed;
+    font-size: 25px;
+    align-items: center;
+}
+
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex; 
+    justify-content: space-around;
+}
